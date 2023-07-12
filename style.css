@@ -1,0 +1,139 @@
+a.nav-link {
+  color: black;
+  font-size: 20px !important;
+}
+a.nav-link:hover {
+  color: aqua !important;
+}
+nav {
+  background-color: white;
+}
+.navb {
+  margin-left: 220px !important;
+}
+.home {
+  height: 800px;
+  padding-top: 100px;
+  overflow-y: hidden;
+}
+.best {
+  font-size: 60px;
+}
+.home-head {
+  color: white;
+  font-size: 90px;
+}
+.home-para {
+  color: white;
+  font-size: 20px;
+}
+button:hover {
+  color: aqua !important;
+  background-color: rgba(34, 31, 31, 0.938) !important;
+}
+.buy {
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 0 !important;
+}
+.about-head {
+  font-size: 60px;
+  font-weight: 500;
+}
+.about-para {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 300;
+}
+.read-btn {
+  color: white;
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 0 !important;
+}
+
+.lemon-head {
+  font-size: 80px;
+  font-weight: 900;
+}
+.blog {
+  object-fit: contain;
+}
+
+div.blog h2,
+div.blog h1 {
+  color: white;
+}
+
+div.blog h5 {
+  color: aqua;
+}
+.fruits-h {
+  font-size: 50px;
+  display: inline;
+}
+.fruits-h2 {
+  font-size: 50px;
+  display: inline;
+  font-weight: 800;
+}
+input {
+  height: 80px;
+}
+textarea {
+  height: 120px;
+}
+#send {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 40px;
+  border-color: rgb(0, 183, 255);
+  border-radius: 0 !important;
+}
+#name,
+#mail,
+#phn,
+#msg {
+  background-color: rgba(34, 31, 31, 0.938);
+  border-radius: 0;
+  color: white;
+}
+::placeholder {
+  color: white !important;
+}
+.footer {
+  height: 350px;
+  background-color: rgba(34, 31, 31, 0.938);
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+footer input {
+  height: 50px;
+  border-radius: 0 !important;
+}
+.sub {
+  border-radius: 0 !important;
+}
+.box {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.zoom {
+  width: 100%;
+  height: 184px;
+  transition: all 2s ease-in-out;
+  zoom: inherit;
+}
+div.box:hover .zoom {
+  transform: scale(1.8);
+  cursor: pointer;
+}

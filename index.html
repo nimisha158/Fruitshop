@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits Shop</title>
+    <link rel="icon" href="images/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid" id="home">
+      <div class="row mt-5 pt-5">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand pe-5" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active pe-5" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link" href="#fruits">Fruits</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mt-5">
+          <div class="col-md-12 home bg-dark">
+            <div id="text">
+              <h2 class="best pt-5 mt-5 mx-5 px-5 text-info">Best</h2>
+            <h1 class="home-head px-5 ms-5">Fresh Red Apple</h1>
+            <p class="home-para px-5 mx-5">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature
+            </p>
+            </div>
+          </div>
+         </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 home-side mt-5">
+              <img
+                src="images/slider_img.png"
+                alt="apples"
+                class="img-fluid w-75 h-100"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <button class="btn buy w-100 btn-dark mt-1">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9"></div>
+      </div>
+    <div class="container py-5 my-5" id="about">
+      <div class="row pt-5 mt-5">
+        <div class="col-md-6 text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <img
+                src="images/about_img.png"
+                alt="apples"
+                class="img-fluid w-100 pe-5 effect"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="about-head pt-5 pb-3 ps-3">About our shop</h2>
+              <p class="about-para ps-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                possimus temporibus fugit ad quidem facilis aperiam excepturi
+                quas quae sint nemo praesentium beatae, assumenda mollitia ipsam
+                placeat corrupti incidunt aliquam. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Perspiciatis enim a iusto.
+                Quisquam omnis deserunt alias esse quibusdam iste aliquid ullam,
+                quaerat odio rerum earum laborum, possimus dignissimos iusto.
+              </p>
+              <p class="about-para ps-3" style="display: none" id="para1">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                et eius quo, beatae, possimus illo vel minus labore a
+                accusantium illum quaerat magnam eos doloremque nisi ullam
+                molestiae magni. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Officia fuga tenetur necessitatibus veniam.
+                Pariatur explicabo dolorum quas expedita placeat ipsam earum
+                illo, aliquid maxime.
+              </p>
+              <button class="btn mt-3 ms-3 read-btn btn-dark" id="btnm">Read More</button>
+              <button class="btn mt-3 ms-3 read-btn btn-dark" id="btnl" style="display: none;">
+                Read Less
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 my-5" id="fruits">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-12 pt-5 mt-5">
+              <h1 class="lemon-head pb-3 text-info">Fresh Lemon</h1>
+              <p class="about-para pe-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                et eius quo, beatae, possimus illo vel minus labore a
+                accusantium illum quaerat magnam eos doloremque nisi ullam
+                molestiae magni. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Officia fuga tenetur necessitatibus veniam.
+                Pariatur explicabo dolorum quas expedita placeat ipsam earum
+                illo, aliquid maxime.
+              </p>
+              <p id="para2" class="about-para" style="display: none">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                et eius quo, beatae, possimus illo vel minus labore a
+                accusantium illum quaerat magnam eos doloremque nisi ullam
+                molestiae magni. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Officia fuga tenetur necessitatibus veniam.
+                Pariatur explicabo dolorum quas expedita placeat ipsam earum
+                illo, aliquid maxime.
+              </p>
+              <button class="btn read-btn mt-3 btn-dark" id="btnmr">Read More</button>
+              <button class="btn read-btn mt-3 btn-dark" id="btnls" style="display: none">
+                Read Less
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <img
+                src="images/green_fr.png"
+                alt="lemons"
+                class="img-fluid my-5 effect"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 my-5" id="blog">
+      <div class="row">
+        <div class="col-md-11 blog bg-dark">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-md-12"></div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-12 text-center mt-5 pt-5 pb-3">
+                  <h1>Our Fruits</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-md-12"></div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box">
+                    <img
+                    src="images/f1.png"
+                    alt="grapes"
+                    class="img-fluid my-3 ms-3 zoom"
+                  />
+                  </div>
+                  <h2>Black Grapes</h2>
+                  <h5 class="mb-5 pb-5">Fresh Fruits</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box">
+                    <img
+                    src="images/f2.png"
+                    alt="pineapple"
+                    class="img-fluid my-3 ms-3 zoom"
+                  />
+                  </div>
+                  <h2>Pineapple</h2>
+                  <h5 class="mb-5 pb-5">Fresh Fruits</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="box">
+                    <img
+                    src="images/f3.png"
+                    alt="bananas"
+                    class="img-fluid my-3 ms-3 zoom"
+                  />
+                  </div>
+                  <h2>Bananas</h2>
+                  <h5 class="mb-5 pb-5">Fresh Fruits</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="row">
+            <div class="col-md-12"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid py-5 my-5" id="contact">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12">
+              <img
+                src="images/fruit_img.png"
+                alt="fruits"
+                class="img-fluid w-100 effect"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="fruits-h">Request a</h1>
+              <h1 class="fruits-h2 text-info">Call Back</h1>
+              <form method="get" class="mt-5 text-center" name="usermsg">
+                <input
+                  class="form-control rq"
+                  id="name"
+                  type="text"
+                  placeholder="Your Name"
+                  name="name"
+                /><br />
+                <input
+                  class="form-control rq"
+                  id="mail"
+                  type="email"
+                  placeholder="Email"
+                  name="mail"
+                  required
+                /><br />
+                <input
+                  class="form-control rq"
+                  id="phn"
+                  type="text"
+                  placeholder="Phone"
+                  name="phn"
+                /><br />
+                <textarea
+                  class="form-control msg"
+                  id="msg"
+                  placeholder="Message"
+                  name="msg"
+                ></textarea
+                ><br />
+                <input
+                  class="btn btn-info"
+                  type="submit"
+                  id="send"
+                  onclick="return regalert()"
+                  value="Send">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <div class="container-fluid py-4">
+        <section class="">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h3 class="text-uppercase">Contact Us</h3>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white"> Healing Center,<br>176 W Street name,<br>
+                      New York,NY</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">(+1)987 654 3210</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">demo@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h3 class="text-uppercase">Pages</h3>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#home" class="text-white">Home</a>
+                </li>
+                <li>
+                  <a href="#about" class="text-white">About Us</a>
+                </li>
+                <li>
+                  <a href="#fruits" class="text-white">Fruits</a>
+                </li>
+                <li>
+                  <a href="#blog" class="text-white">Blog</a>
+                </li>
+                <li>
+                  <a href="#contact" class="text-white">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h3 class="text-uppercase">Recent Posts</h3>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#fruits" class="text-white"><img src="images/f_b1.png" alt="fruits" class="img-fluid pb-2"><span class="p-2">rerum vero voluptatem,
+                    sequi in!</span></a>
+                </li>
+                <li>
+                  <a href="#blog" class="text-white"><img src="images/f_b2.png" alt="fruits" class="img-fluid pb-2"><span class="p-2">rerum vero voluptatem,
+                    sequi in!</span></a>
+                </li>
+                <li>
+                  <a href="#about" class="text-white"><img src="images/f_b3.png" alt="fruits" class="img-fluid pb-2"><span class="p-2">rerum vero voluptatem,
+                    sequi in!</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+              <h3 class="f-head pb-2">Newsletter</h3>
+                  <form method="get" name="subscribe">
+                      <input
+                      type="email"
+                      class="form-control mb-3"
+                      placeholder="Enter Your Email"
+                      name="email"
+                      id="email"
+                    />
+                  <button type="submit" class="btn btn-info sub" onclick="return sub()">Subscribe</button>
+                 </form>
+          </div>
+        </section>
+      </div>
+      <div class="text-center bg-info p-3">
+          Copyright 2019 All Right Reserved by
+        <a class="text-white" href="#">Free HTML Templates</a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="action.js"></script>
+  </body>
+</html>
